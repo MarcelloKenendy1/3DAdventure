@@ -141,7 +141,7 @@ MonoBehaviour:
   forcaPulo: 300
   forcaArremeco: 20
   miraMachado: {fileID: 659597129}
-  machadoPrefab: {fileID: 8458858004840708545, guid: 47c2864f75970414f84240632f0d168a, type: 3}
+  machadoPrefab: {fileID: 8866272737922196324, guid: 5d951a1cafbca004ca997786fc8c557e, type: 3}
   QuebraPreFab: {fileID: 8918408107090848872, guid: a07bb0d319f16d64090aeb6b9b856d8f, type: 3}
   cineCamera: {fileID: 0}
 --- !u!54 &2633519
