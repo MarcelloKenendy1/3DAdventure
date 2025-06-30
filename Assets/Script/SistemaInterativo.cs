@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class SistemaInterativo : MonoBehaviour
 {
     [Header("Objeto do Canvas que o Icone")]
+
     [SerializeField] private Image spriteInterface;
     [Header("Objeto do Canvas que o texto ")]
     [SerializeField] private float tempoExibir;
@@ -14,6 +15,8 @@ public class SistemaInterativo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
  
+
+    
     void Start()
     {
         ProcuraReferencias();
@@ -27,7 +30,7 @@ public class SistemaInterativo : MonoBehaviour
     {
         if(other.gameObject.TryGetComponent<Avisos>(out Avisos a))
         {
-            StartCoroutine(ExibirAviso(a.SpriteAviso(), a.AvisoTexto(), a.CorAviso()));
+            StartCoroutine(ExibirAviso(a.SpriteAviso(), a.AvisoTexto(), a.CorAviso())); 
             if (a.AvisoTemporario())
             {
                 StartCoroutine(TimerAvisoTemporario(other.gameObject));

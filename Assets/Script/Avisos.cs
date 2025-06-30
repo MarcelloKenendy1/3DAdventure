@@ -12,7 +12,7 @@ public class Avisos : MonoBehaviour
     [SerializeField] private bool avisoTemporario = false;
 
 
-   public string AvisoTexto()
+    public string AvisoTexto()
     {
         return avisoTexto;
     }
@@ -31,7 +31,7 @@ public class Avisos : MonoBehaviour
         avisoTexto = t;
         corAviso = c;
     }
-   public bool AvisoTemporario()
+    public bool AvisoTemporario()
     {
         return avisoTemporario;
     }

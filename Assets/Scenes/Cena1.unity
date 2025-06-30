@@ -8686,7 +8686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da5268dd5fb886047b0e854234233a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeDaProximaFase: Cena2
+  nomeDaProximaFase: Texte
   tempoDeTransiscao: 2.5
   efeitoFade: {fileID: 933276052}
 --- !u!65 &533948759
@@ -14860,15 +14860,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1f785965d3098ed44860042daa2d6f9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.5738945
+      value: 1.57
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f785965d3098ed44860042daa2d6f9f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.67024744
+      value: -1.17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f785965d3098ed44860042daa2d6f9f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.934011
+      value: -10.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1f785965d3098ed44860042daa2d6f9f, type: 3}
       propertyPath: m_LocalRotation.w
