@@ -32,3 +32,4 @@ public class MudarFase : MonoBehaviour
         SceneManager.LoadScene(nomeDaProximaFase);
     }
 }
+    
