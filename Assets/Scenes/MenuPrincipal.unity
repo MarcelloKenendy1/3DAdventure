@@ -3501,7 +3501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 153}
+  m_AnchoredPosition: {x: 533, y: 384}
   m_SizeDelta: {x: 392.9392, y: 129.8822}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &512797269
@@ -3533,8 +3533,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3551,8 +3551,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3589,7 +3589,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -21.760376, z: 112.224304, w: 0}
+  m_margin: {x: 0, y: -21.760376, z: -124.28656, w: -8.484192}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3603,6 +3603,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512797267}
   m_CullTransparentMesh: 1
+--- !u!1 &536645217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4825508934906104474, guid: b9aa412fde596fc44ad3408efe155cc0, type: 3}
+  m_PrefabInstance: {fileID: 950103141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &536645218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536645217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bf4eb81cb4e5e47808786f5b5d4caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadeAndar: 0
+  velocidadeCorrer: 0
+  forcaPulo: 0
+  forcaArremeco: 0
+  miraMachado: {fileID: 0}
+  machadoPrefab: {fileID: 0}
+  QuebraPreFab: {fileID: 0}
+  cineCamera: {fileID: 0}
+--- !u!95 &536645219
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536645217}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7ed9a18e674609640b540d2cb8614cc7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &570881905
 GameObject:
   m_ObjectHideFlags: 0
@@ -5429,6 +5476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Knight
       objectReference: {fileID: 0}
+    - target: {fileID: 4825508934906104474, guid: b9aa412fde596fc44ad3408efe155cc0, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5313251831709503520, guid: b9aa412fde596fc44ad3408efe155cc0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.19
@@ -5472,7 +5523,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4825508934906104474, guid: b9aa412fde596fc44ad3408efe155cc0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 536645219}
+    - targetCorrespondingSourceObject: {fileID: 4825508934906104474, guid: b9aa412fde596fc44ad3408efe155cc0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 536645218}
   m_SourcePrefab: {fileID: 100100000, guid: b9aa412fde596fc44ad3408efe155cc0, type: 3}
 --- !u!1001 &950305109
 PrefabInstance:
